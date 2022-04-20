@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-const express = require('express')
-const port = 3000
-=======
 //wersja 1.1
 const express = require('express')
-const port = parseInt(process.env.PORT) || 3000
->>>>>>> 5b62e6b (wersja 1.1)
+//const port = parseInt(process.env.PORT) || 3000
 
 const app = express()
 app.set('view engine', 'hbs')
