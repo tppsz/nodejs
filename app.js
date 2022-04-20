@@ -1,6 +1,6 @@
 //wersja 1.1
 const express = require('express')
-//const port = parseInt(process.env.PORT) || 3000
+const port = parseInt(process.env.PORT) || 3000
 
 const app = express()
 app.set('view engine', 'hbs')
